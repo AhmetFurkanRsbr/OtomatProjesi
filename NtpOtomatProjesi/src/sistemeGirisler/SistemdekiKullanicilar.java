@@ -24,8 +24,6 @@ public class SistemdekiKullanicilar extends Menu{
     //******************************************************************************************************
     //Metot tanımlamaları
     public static void sistemeKullanicilariYukle(){
-//    SistemeKayitEt sistemeKayitEt1=new SistemeKayitEt();
-//    sistemeKayitEt1.getSistemeKayitEt();
     kullanicilarMap.put("yonetici1","asd123");
     kullanicilarMap.put("yonetici2","asd1234");
     kullanicilarMap.put("ahmet_frk","453frkn");
@@ -94,9 +92,6 @@ public class SistemdekiKullanicilar extends Menu{
 
             System.out.println("\n" +bosluk+"*> KULLANICI LİSTESİNİ GÖRMEK İÇİN YÖNETİCİ GİRİŞİ YAPMALISINIZ");
             System.out.println("Aktif kullanıcı : " + kullaniciKonumu);
-        }
-        else {
-            System.out.println("HATA");
         }
     }
     public static void setKullaniciAdi(String kullaniciAdi) {

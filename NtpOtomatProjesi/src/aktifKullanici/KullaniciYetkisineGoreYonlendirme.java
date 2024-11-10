@@ -16,13 +16,10 @@ public class KullaniciYetkisineGoreYonlendirme {
         switch (Kullanici.getKullanici()){
             case "Yönetici":
                 yoneticiMenu1.yoneticiMenusu();
-
                 break ;
-
 
             case "Teknik Ekip":
                 teknikEkipMenu1.teknikEkipMenusu();
-
                 break;
 
             default:

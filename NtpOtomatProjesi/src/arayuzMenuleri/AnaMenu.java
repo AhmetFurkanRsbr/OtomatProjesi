@@ -81,7 +81,7 @@ public class AnaMenu extends Menu {
                 System.out.println(bosluk + "-> Yetki Ekranınıza Gitmek için '6'yı  tuşlayınız\n");
                 System.out.print(bosluk+"*> Seçiminiz : ");
                 secim(6);
-            } else{
+            }else{
                 System.out.print("\n"+bosluk+"*> Seçiminiz : ");
                 secim(4);
             }
