@@ -12,10 +12,10 @@ public class YiyecekMenu extends Menu {
     private void yiyecekListesi(){
         System.out.println("\n\t************** Yiyecekler Listeleniyor **************");
         beklet();
-        System.out.println("\n"+bosluk+"-> Sandaviç çeşitlerini görmek isterseniz '1' i tuşlayınız");
+        System.out.println("\n"+bosluk+"-> Sandviç çeşitlerini görmek isterseniz '1' i tuşlayınız");
         System.out.println(bosluk +"-> Tost çeşitlerini görmek isterseniz '2' yi tuşlayınız");
         System.out.println(bosluk +"-> Pizza çeşitlerini görmek isterseniz '3' ü tuşlayınız");
-        System.out.println(bosluk +"-> Nugget Sandaviç çeşitlerini görmek için '4' ü tuşlayınız");
+        System.out.println(bosluk +"-> Nugget Sandviç çeşitlerini görmek için '4' ü tuşlayınız");
         System.out.print("\n"+bosluk+"*> Seçiminiz : ");
     }
     public void yiyecekMenusu(){

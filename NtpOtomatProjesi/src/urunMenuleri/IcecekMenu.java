@@ -14,7 +14,7 @@ public class IcecekMenu extends Menu {
         beklet();
         System.out.println("\n"+bosluk+"1-> Sıcak Kahve türlerini gör"+"->(Ortalama fiyat 50-60 ₺)");
         System.out.println(bosluk +"2-> Soğuk Kahve türlerini gör"+"->(Ortalama fiyat 50-60 ₺)");
-        System.out.println(bosluk +"3-> Meyvesuyu türlerini gör"+"->(Ortalama fiyat 15-20 ₺)");
+        System.out.println(bosluk +"3-> Meyve suyu türlerini gör"+"->(Ortalama fiyat 15-20 ₺)");
         System.out.println(bosluk +"4-> Enerji içeceklerini gör"+"->(Ortalama fiyat 30-40 ₺)");
         System.out.println(bosluk +"5-> Su al"+"->(Fiyat 7₺)");
         System.out.print("\n"+bosluk+"*> Seçiminiz : ");

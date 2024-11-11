@@ -65,7 +65,7 @@ public class YoneticiMenu  extends  Menu{
             System.out.println("\n\t 7-> Kullanıcı Çıkışı Yap");
             System.out.print("\n\t 8-> Sistemi Kapat \n\n");
             System.out.print(bosluk +"*> Seçiminiz ->");
-            secim(6);
+            secim(8);
         }while (secimSonucu<=0 || secimSonucu>8);
          switch (secimSonucu){
              case 1:

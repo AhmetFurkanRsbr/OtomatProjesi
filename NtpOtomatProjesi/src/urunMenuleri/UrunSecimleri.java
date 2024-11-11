@@ -89,7 +89,7 @@ public class UrunSecimleri extends Menu {
                 }
                 break;
             case 3:
-                System.out.println("\n\n\n\t************** Meyvesuyu Çeşitleri Listeleniyor **************");
+                System.out.println("\n\n\n\t************** Meyve suyu Çeşitleri Listeleniyor **************");
                 System.out.println("\n"+bosluk+"1-> KAYISI MEYVE SUYU al"+"->(Fiyat 20₺)");
                 System.out.println(bosluk +"2-> KARIŞIK MEYVE SUYU al"+"->(Fiyat 20₺)");
                 System.out.println(bosluk +"3-> VİŞNE MEYVE SUYU al"+"->(Fiyat 20₺)");
@@ -169,32 +169,32 @@ public class UrunSecimleri extends Menu {
 
         switch (secimSonucu){
             case 1:
-                System.out.println("\n\n\n\t************** Sandaviç Çeşitleri Listeleniyor **************");
-                System.out.println("\n"+bosluk+"1-> ZEYTİNLİ SANDAVİÇ al"+"->(Fiyat 15₺)");
-                System.out.println(bosluk +"2-> KAŞARLI SANDAVİÇ al"+"->(Fiyat 15₺)");
-                System.out.println(bosluk +"3-> SALAMLI SANDAVİÇ al"+"->(Fiyat 25₺)");
-                System.out.println(bosluk +"4-> PEYNİRLİ SANDAVİÇ al"+"->(Fiyat 20₺)");
+                System.out.println("\n\n\n\t************** Sandviç Çeşitleri Listeleniyor **************");
+                System.out.println("\n"+bosluk+"1-> ZEYTİNLİ SANDVİÇ al"+"->(Fiyat 15₺)");
+                System.out.println(bosluk +"2-> KAŞARLI SANDVİÇ al"+"->(Fiyat 15₺)");
+                System.out.println(bosluk +"3-> SALAMLI SANDVİÇ al"+"->(Fiyat 25₺)");
+                System.out.println(bosluk +"4-> PEYNİRLİ SANAVİÇ al"+"->(Fiyat 20₺)");
                 System.out.print("\n"+bosluk+"*> Seçiminiz : ");
 
                 secim(4);
                 switch (secimSonucu){
                     case 1:
-                        setIstenilenUrun("ZEYTİNLİ SANDAVİÇ");
+                        setIstenilenUrun("ZEYTİNLİ SANDVİÇ");
                         setOdenecekUcret(15);
                         Indirim.indirimUygula();
                         break;
                     case 2:
-                        setIstenilenUrun("KAŞARLI SANDAVİÇ");
+                        setIstenilenUrun("KAŞARLI SANDVİÇ");
                         setOdenecekUcret(15);
                        Indirim.indirimUygula();
                         break;
                     case 3:
-                        setIstenilenUrun("SALAMLI SANDAVİÇ");
+                        setIstenilenUrun("SALAMLI SANDVİÇ");
                         setOdenecekUcret(25);
                       Indirim.indirimUygula();
                         break;
                     case 4:
-                        setIstenilenUrun("PEYNİRLİ SANDAVİÇ");
+                        setIstenilenUrun("PEYNİRLİ SANDVİÇ");
                         setOdenecekUcret(20);
                         Indirim.indirimUygula();
                         break;
