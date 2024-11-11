@@ -14,3 +14,28 @@ I plan to improve this project by eliminating these deficiencies with commits ov
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+  ~TR : Aşağıda programın ekran görüntülerinden bazılarına yer verdim.              
+  ~EN : I have included some screenshots of the program below.
+
+
+
+![sisteme giriş ekranı (0 girdisi)](https://github.com/user-attachments/assets/61a82b68-c65a-4745-849b-0326af93cea5)
+
+
+
+![hatalı seçimler için önlem](https://github.com/user-attachments/assets/afbfba47-d95b-47a8-a134-99f9538acc07)
+
+
+
+![Otamat menüsü, seçim ekranı (giriş yapılmamışsa)](https://github.com/user-attachments/assets/16936abf-4160-403d-bcb8-82d280305c1b)
+
+
+
+
+
+
+
