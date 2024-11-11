@@ -20,14 +20,12 @@ public class Yonetici extends Yonetim{
 
       if(!this.kullaniciAdi.equals("")){
          kullaniciAdiVar=true;
-         if(kullaniciAdi.equals("yonetici1") && sifre.equals("asd123")){
-            System.out.println("\t\t-> yonetici_123 <- SİSTEME "+yeniKullanici.getKullanici()+" OLARAK GİRİŞ YAPTI");
-         }
-         else if(kullaniciAdi.equals("yonetici2") && sifre.equals("asd1234") ){
-            System.out.println("\t\t-> yonetici2 <- SİSTEME "+yeniKullanici.getKullanici()+" OLARAK GİRİŞ YAPTI");
-         }
-         else{
 
+         if(sistemdekiKullanicilar.getKullanicilarMap().containsKey(kullaniciAdi) && sifre.equals(sistemdekiKullanicilar.getKullanicilarMap().get(kullaniciAdi))){
+            System.out.println("\t\t-> "+kullaniciAdi+" <- SİSTEME "+yeniKullanici.getKullanici()+" OLARAK GİRİŞ YAPTI");
+         }
+
+         else{
             System.out.println("\t\t!!! KULLANICI ADI YADA ŞİFRE YÖNETİCİ İLE UYUŞMUYOR !!!");
          }
       }

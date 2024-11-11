@@ -50,12 +50,6 @@ public class YoneticiMenu  extends  Menu{
                  System.out.println(bosluk+" *> SEÇİMİNİZ 0 'DAN KÜÇÜK OLAMAZ");
                  beklet();
              }
-
-            /*else if(secimSonucu>6 ){
-                System.out.println(bosluk+" *> SEÇİMİNİZ 6 'DAN BÜYÜK OLAMAZ");
-                beklet();
-            }
-             */
              else if(secimSonucu>8 ){
                  System.out.println(bosluk+" *> SEÇİMİNİZ 8 'DEN BÜYÜK OLAMAZ");
                  beklet();
@@ -66,17 +60,12 @@ public class YoneticiMenu  extends  Menu{
             System.out.print("\n\t 2-> Bugün Alınan  Ürünleri Görüntüle");
             System.out.print("\n\t 3-> Kayıtlı Kullanıcıların Aldığı Ürünleri Görüntüle");
             System.out.print("\n\t 4-> Otomattan Ürün Al");
-            System.out.println("\n\t 5-> Sisteme Kullanıcı Kayıt Et");
-            System.out.println("\n\t 6-> Sistemden Kullanıcı Kaydı Sil");
-            /*System.out.println("\n\t 5-> Kullanıcı Çıkışı Yap");
-            System.out.print("\n\t 6-> Sistemi Kapat \n\n");
-            */
+            System.out.print("\n\t 5-> Sisteme Kullanıcı Kayıt Et");
+            System.out.print("\n\t 6-> Sistemden Kullanıcı Kaydı Sil");
             System.out.println("\n\t 7-> Kullanıcı Çıkışı Yap");
             System.out.print("\n\t 8-> Sistemi Kapat \n\n");
             System.out.print(bosluk +"*> Seçiminiz ->");
             secim(6);
-
-        //}while (secimSonucu<=0 || secimSonucu>6);
         }while (secimSonucu<=0 || secimSonucu>8);
          switch (secimSonucu){
              case 1:
